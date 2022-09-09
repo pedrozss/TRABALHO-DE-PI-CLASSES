@@ -4,6 +4,6 @@ public class main {
      public static void main(String[] args) {
         pinguim pew = new pinguim("Pew");
       
-        System.out.println("Nome é " + pew.getNome());     
+        System.out.println("O nome do animal é " + pew.getNome());     
     }
 }
