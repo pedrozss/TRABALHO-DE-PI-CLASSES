@@ -1,9 +1,10 @@
 package pedropi;
 
 public class pinguim { private String cor = "preta e branco";
-    private String especie = "ave";
+    private String especie;
     private String pinguim;
     private String nome;
+    private String sexo;
     
     
     public pinguim(String nomepinguim) {
@@ -39,6 +40,13 @@ public class pinguim { private String cor = "preta e branco";
         this.especie = especie;
     }
 
+    public String getSexo() {
+        return sexo;
+    }
+    
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
+    }
     public String get() {
         return pinguim;
     }
@@ -57,5 +65,6 @@ public class pinguim { private String cor = "preta e branco";
     
     public void nadar() {
         System.out.println("nadar");
-    }   
+    }
+ 
 }
