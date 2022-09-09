@@ -6,12 +6,14 @@ public class Pedro {
             
        pew.setNome("Pew");
        pew.setCor("preto e branco");
-       pew.setEspecie("ave");
+       pew.setEspecie("aves");
+       pew.setSexo("macho");
+       
         
-        System.out.println("O pinguim com o nome " + pew.getNome() + 
+        System.out.println("O pinguim de nome " + pew.getNome() + 
                            ", tem a cor " + pew.getCor() + 
-                           ", é da especie " + pew.getEspecie());
-        
+                           ", é de especie " + pew.getEspecie() + " e é de sexo " + pew.getSexo());
+       
         System.out.println("O pinguim " + pew.getNome() +
                             ", pode fazer: ");
         
